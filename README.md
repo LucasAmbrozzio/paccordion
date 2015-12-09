@@ -8,8 +8,6 @@ A dead simple accordion plugin
 
 ## Usages
 
-### for toggle
-
 ```
 <div class="accordion-wrapper">
 	<div class="ac-pane active">
