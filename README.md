@@ -8,6 +8,15 @@ A dead simple accordion plugin
 
 ## Usages
 
+Include scripts and style inside `<head>` tag of your document
+
+```
+<link rel="stylesheet" href="path-to-style/style.css">
+
+<script src="path-to-script/jquery-1.11.3.min.js"></script>
+<script src="path-to-script/paccordion.js"></script>
+```
+## Markup
 ```
 <div class="accordion-wrapper">
 	<div class="ac-pane active">
@@ -21,7 +30,7 @@ A dead simple accordion plugin
 </div>
 ```
 
-### for accordion 
+### For accordion 
 Just add a data attribute to title for accordion 
 
 ```
