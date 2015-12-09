@@ -8,10 +8,12 @@ A dead simple accordion plugin
 
 ## Usages
 
+### for toggle
+
 ```
 <div class="accordion-wrapper">
 	<div class="ac-pane active">
-		<a href="#" class="ac-title" data-accordion="true">
+		<a href="#" class="ac-title">
 			<!-- accordion title here -->
 		</a>
 		<div class="ac-content">
@@ -19,4 +21,11 @@ A dead simple accordion plugin
 		</div>
 	</div>
 </div>
+```
+
+### for accordion 
+Just add a data attribute to title for accordion 
+
+```
+<a href="#" class="ac-title" data-accordion="true">
 ```
