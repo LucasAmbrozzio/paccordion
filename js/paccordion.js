@@ -8,12 +8,12 @@
 |* Thanks,
 |* Morshed */
 
-$(function() {
-	'use strict';
-	
+jQuery.fn.pacordion = function() {
+
+	//var this = $(this);
 	var selector = $('.ac-title');
 
-	$('.accordion-wrapper').each(function() {
+	this.each(function() {
 		if ($(this).find('.ac-pane').hasClass('active')) {
 			$('.ac-pane.active .ac-content').css('display', 'block');
 		}
@@ -30,7 +30,7 @@ $(function() {
 
 		    if ($(this).next('.ac-content').is(':visible')) {
 		    	return false;
-		    }else {
+		    } else {
 
 		    	getparent.find('.ac-content').slideUp();
 		    	$(this).next('.ac-content').slideDown();
@@ -44,4 +44,4 @@ $(function() {
 		}
 		
 	});
-});
+};
