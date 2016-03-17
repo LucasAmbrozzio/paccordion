@@ -8,12 +8,12 @@
 |* Thanks,
 |* Morshed */
 
-jQuery.fn.pacordion = function() {
-
-	//var this = $(this);
+$(function() {
+	'use strict';
+	
 	var selector = $('.ac-title');
 
-	this.each(function() {
+	$('.accordion-wrapper').each(function() {
 		if ($(this).find('.ac-pane').hasClass('active')) {
 			$('.ac-pane.active .ac-content').css('display', 'block');
 		}
@@ -30,7 +30,7 @@ jQuery.fn.pacordion = function() {
 
 		    if ($(this).next('.ac-content').is(':visible')) {
 		    	return false;
-		    } else {
+		    }else {
 
 		    	getparent.find('.ac-content').slideUp();
 		    	$(this).next('.ac-content').slideDown();
@@ -44,4 +44,4 @@ jQuery.fn.pacordion = function() {
 		}
 		
 	});
-};
+});
