@@ -1,6 +1,6 @@
-/* jQuery pacordion plugin
+/* jQuery paccordion plugin
 |* by Muhammad Morshed
-|* https://www.github.com/morshedx/pacordion
+|* https://www.github.com/morshedx/paccordion
 |* version: 1.0
 |* Created: December 7, 2015
 |* Enjoy.
